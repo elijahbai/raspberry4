@@ -1,7 +1,7 @@
 # raspberry4
 收集一些可用的raspberry4的脚本小程序
-buzzer.py   蜂鸣器
-dht11.py    温湿度
+- buzzer.py   蜂鸣器
+- dht11.py    温湿度
 
 
 
