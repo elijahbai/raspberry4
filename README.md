@@ -5,7 +5,7 @@
 
 
 
-具体实现细节在个人博客里有，详细介绍 www.bigbai.fun
+具体实现细节在个人博客里有，详细介绍 www.bigbai.fun\n
 相关原始链接：
 - https://mp.weixin.qq.com/s/UYTYLoa60E6tEognvFdRxw
 - https://github.com/szazo/DHT11_Python
