@@ -6,13 +6,14 @@
 - deng.py 4位共阴数码管
 - MQ-2.py 烟雾报警
 - JQC-3FF.py 继电器
+- lightdz.py 光敏电阻 控制LED
 
 
 
-
--JQC-3FF.py  图片
+- JQC-3FF.py  图片
 ![](http://www.bigbai.fun/img/179899A1013F0D48E861AF633FF4BC32.jpg)
-
+- lightdz.py 图片
+![](http://www.bigbai.fun/img/20191213162500.png)
 
 具体实现细节在个人博客里有，详细介绍 www.bigbai.fun  
 相关原始链接：
