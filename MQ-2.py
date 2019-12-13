@@ -5,9 +5,9 @@ import time
 from gpiozero import Buzzer
 from time import sleep
 
-buzzer = Buzzer(17)
+buzzer = Buzzer(17)  #蜂鸣器I/0接BCM17,GND,VCC 3.3V
 
-CHANNEL=16 # 确定引脚口。按照真实的位置确定
+CHANNEL=16 # 确定引脚口。按照真实的位置确定     MQ-2 AD 不接，GND, VCC 5V, DO 接BCM16，电阻调节顺时针灵敏高，反之低
 GPIO.setmode(GPIO.BCM) # 选择引脚系统，这里我们选择了BOARD
 GPIO.setup(CHANNEL,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 #初始化引脚，将36号引脚设置为输入下拉电阻，因为在初始化的时候不确定的的引电平，因此这样设置是用来保证精准，（但是也可以不写“pull_up_down=GPIO.PUD_DOWN”）
