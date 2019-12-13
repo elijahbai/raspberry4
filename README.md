@@ -4,6 +4,9 @@
 - dht11.py    温湿度
 - redbuzzer.py  红外报警
 - deng.py 4位共阴数码管
+- MQ-2.py 烟雾报警
+
+
 
 
 具体实现细节在个人博客里有，详细介绍 www.bigbai.fun  
