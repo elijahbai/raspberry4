@@ -7,6 +7,7 @@
 - MQ-2.py 烟雾报警
 - JQC-3FF.py 继电器
 - lightdz.py 光敏电阻/声敏电阻 控制LED
+- soundlight.py 声控灯
 
 
 
