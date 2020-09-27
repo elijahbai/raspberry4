@@ -11,10 +11,11 @@ GPIO.setup(4,GPIO.OUT)
 from gpiozero import MotionSensor
 
 pir = MotionSensor(17)
-
+i=0
 while True:
     pir.wait_for_motion()
-    print('you moved')
+    i+=1
+    print('you moved %s 次!!!'%i)
     GPIO.output(4,GPIO.HIGH)
     sleep(10)
     GPIO.output(4,GPIO.LOW)
